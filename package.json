@@ -1,17 +1,15 @@
 {
-  "name": "aula",
+  "name": "aulatype",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/jest": "^27.0.0",
-    "jest": "^27.0.6",
-    "ts-jest": "^27.0.4",
+  "dependencies": {
+    "init": "^0.1.2",
     "typescript": "^4.3.5"
   }
 }
