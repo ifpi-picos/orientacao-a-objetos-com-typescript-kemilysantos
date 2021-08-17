@@ -19,7 +19,7 @@ console.log('Professor: ', professor.getNome())
 console.log('///////////////////////////////////////////////////')
 
 const empresa = new Empresa('Mambee');
-const funcionario = new Funcionario('Carlos', 1500 );
+const funcionario = new Funcionario('Carlos', 2000 );
 const funcionario1 = new PF('Michel', 2000, '23288946587');
 const funcionario2 = new PJ('Edivan', 2000, '6546879876546')
 

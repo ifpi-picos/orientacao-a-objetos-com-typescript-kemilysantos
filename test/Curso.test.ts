@@ -6,6 +6,7 @@ describe(' teste curso', () => {
     const NOME_CURSO_ADS = "Ads"
     const NOME_DISCIPLINA = "Banco de dados"
     const NOME_PROFESSOR = "Nayara"
+    
     it('criar um curso com o nome Ads', () => {
         const curso = new Curso(NOME_CURSO_ADS)
         expect(curso.getNome()).toBe(NOME_CURSO_ADS)

@@ -15,7 +15,7 @@ console.log('Disciplina: ', disciplina.getNome());
 console.log('Professor: ', professor.getNome());
 console.log('///////////////////////////////////////////////////');
 var empresa = new empresa_1.Empresa('Mambee');
-var funcionario = new funcionario_1.Funcionario('Carlos', 1500);
+var funcionario = new funcionario_1.Funcionario('Carlos', 2000);
 var funcionario1 = new pf_1.PF('Michel', 2000, '23288946587');
 var funcionario2 = new pj_1.PJ('Edivan', 2000, '6546879876546');
 console.log('Empresa: ', empresa.getNome());

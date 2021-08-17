@@ -14,7 +14,7 @@ export class PF extends Funcionario{
     }
 
     public getSalarioLiquido(): number{
-        return this.salario - (this.salario * 0.5);
+        return this.salario - (this.salario * 0.1);
     }
 }
 

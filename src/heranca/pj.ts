@@ -13,7 +13,7 @@ export class PJ extends Funcionario{
         return this.cnpj
     }
     public getSalarioLiquido(): number{
-        return this.salario - (this.salario * 0.1);
+        return this.salario - (this.salario * 0.05);
     }
 
 }
