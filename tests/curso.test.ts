@@ -3,10 +3,10 @@ import { Disciplina } from "../src/Agregacao/disciplina"
 import { Professor } from "../src/Agregacao/professor"
 
 describe(' teste curso', () => {
-    const NOME_CURSO_ADS = "ADS"
-    const NOME_DISCIPLINA = "BANCO DE DADOS"
+    const NOME_CURSO_ADS = "Ads"
+    const NOME_DISCIPLINA = "Banco de dados"
     const NOME_PROFESSOR = "Nayara"
-    it('criar um curso com o nome ADS', () => {
+    it('criar um curso com o nome Ads', () => {
         const curso = new Curso(NOME_CURSO_ADS)
         expect(curso.getNome()).toBe(NOME_CURSO_ADS)
     })
