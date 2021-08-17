@@ -22,7 +22,7 @@ describe('funcionario', () => {
         expect(funcionario1.getSalario()).toBe(SALA_FUNCIONARIO)
     })
     
-    it('pj com o salario de 1425', () => {
+    it('pj com o salario de 1800', () => {
         const funcionario2 = new PJ(NOME_FUNCIONARIO2, SALA_FUNCIONARIO, CNPJ_FUNCIONARIO)
         expect(funcionario2.getNome()).toBe(NOME_FUNCIONARIO2)
         expect(funcionario2.getBeneficios() .length).toBe(1)
