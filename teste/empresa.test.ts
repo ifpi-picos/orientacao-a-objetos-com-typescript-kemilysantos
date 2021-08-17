@@ -16,7 +16,7 @@ describe('empresa', () => {
     it('adicionar funcionarios a empresa', () => {
         const funcionario = new Funcionario(NOME_FUNCIONARIO, SALARIO_FUNCIONARIO)
         expect(funcionario.getNome()).toBe(NOME_FUNCIONARIO)
-        expect(funcionario.getSalario()) .toBe(2000)
+        expect(funcionario.getSalario()) .toBe(SALARIO_FUNCIONARIO)
         
         
     })
